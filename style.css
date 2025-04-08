@@ -47,8 +47,8 @@ body {
     text-align: center;
     margin: 20px 40;
 }
-.h1 {
-    font-size: medium; /* Tamaño grande */
+.header h1 {
+    font-size: 2.5rem; /* Tamaño grande */
     font-weight: bold; /* Negrita */
     text-align: center; /* Centrado */
     margin: 20px 0; /* Espaciado superior e inferior */
