@@ -6,9 +6,9 @@ body {
 }
 
 .header {
-    background-color: #0a3d2e;
+    background-color: #20c090;
     color: white;
-    padding: 10px 20px;
+    padding: 13px 25px;
     font-weight: bold;
 }
 
@@ -21,7 +21,7 @@ body {
 .menu {
     display: flex;
     padding: 10px;
-    border-bottom: 3px solid #cc6633;
+    border-bottom: 3px solid #cc4d0d;
 }
 
 .menu a {
@@ -31,7 +31,7 @@ body {
 }
 
 .menu .active {
-    background-color: #cc6633;
+    background-color: #cc4d0d;
     color: white;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .sidebar {
-    background-color: #0a3d2e;
+    background-color: #20c090;
     padding: 10px;
     color: white;
     max-width: 250px;
@@ -107,7 +107,7 @@ body {
 }
 
 /* responsive */
-@media (max-width: 600px) {
+@media (max-width: 701px) {
     .menu {
         flex-direction: column;
     }
@@ -116,12 +116,11 @@ body {
         max-width: 100%;
         float: none;
     }
-    /* mantener las tres imagenes pricing en la misma fila, las tres seguidas */
     .pricing {
         display: flex;
         justify-content: center;
         flex-wrap: nowrap;
-        gap: 10px;
+        gap: 12px;
         overflow-x: auto;
     }
 
